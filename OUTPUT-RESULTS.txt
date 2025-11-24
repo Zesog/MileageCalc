@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250118232307
+Username: SELFISH\Zesog
+RunAs User: SELFISH\Zesog
+Configuration Name: 
+Machine: SELFISH (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -SetDefaultWindowTitle -InstallPath 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise' -StartInPath 'C:\Users\Zesog\Downloads\MileageCalc\MileageCalc' }
+Process ID: 24664
+PSVersion: 5.1.26100.2161
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.2161
+BuildVersion: 10.0.26100.2161
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is OUTPUT-RESULTS.txt
+PS C:\Users\Zesog\Downloads\MileageCalc\MileageCalc> .\bin\Debug\MileageCalc.exe
+
+******************************************************************************
+******************** Amazing Trip Mileage Calculator **************************
+*******************************************************************************
+The MileageCalc calculator will determine fuel efficiency for a typical
+automobile trip so that you can monitor your gas mileage and see if you
+are using the best vehicle and route  to reach your destinations.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ENTER number of whole miles driven (ex: 297, 325, etc.):
+300
+ENTER amount of gallons used (ex: 12.5, 9.76, etc.):
+12.5
+The results of your trip of 300 miles that used 12.5 gallons is a fuel efficiency of 24 miles per gallon.
